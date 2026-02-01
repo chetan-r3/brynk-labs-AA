@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Temporary files
+temp/*
+!temp/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Audio files (if storing temporarily)
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.flac
+
+
+# Sample audio files (keep folder, ignore audio files)
+samples/*.mp3
+samples/*.wav
+samples/*.m4a
+samples/*.ogg
+samples/*.flac
